@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,800;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1604440977833-9c2f39dcc0c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    margin-top: 2rem;
+
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 40rem;
+}
+
+.countdown-container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+} 
